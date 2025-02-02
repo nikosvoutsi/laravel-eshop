@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html class="no-js no-svg">
+<head>
+    <title>Mykonos Jewelry</title>
+    
+    <!-- <meta charset="<?php bloginfo( 'charset' ); ?>"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Include Bootstrap 4 CSS from a CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/8879801888.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="/js/rating/rater.js"></script>
+	<style>
+		/* Define the styles for the star rating */
+.star-rating {
+    font-size: 24px; /* Adjust the size of the stars as needed */
+}
+
+.star-container {
+    display: inline-block;
+    position: relative;
+    font-size: 0; /* Remove the space between inline-block elements */
+}
+
+.star {
+    color: var(--star-color, gold); /* Color for filled stars */
+    font-size: 24px; /* Adjust the size of the stars as needed */
+    display: inline-block;
+}
+
+.full-star {
+    color: var(--star-color, gold);
+}
+
+.partial-star-container {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 72px; /* Adjust the width to control the partial star size (24px per star * 3 stars) */
+}
+
+.partial-star {
+    color: var(--star-color, gold);
+    width: var(--rating); /* Adjust to control the filled portion of the partial star */
+    overflow: hidden;
+    display: inline-block;
+}
+
+.empty-star {
+    color: var(--empty-star-color, gray); /* Color for empty stars */
+}
+	</style>
+</head>
+
+<body>
+    <div class="star-rating">
+		<div class="star-container">
+			<div class="star full-star">&#9733;</div>
+			<div class="star full-star">&#9733;</div>
+			<div class="star full-star">&#9733;</div>
+			<div class="star partial-star-container">
+				<div class="star partial-star"></div>
+			</div>
+			<div class="star empty-star">&#9733;</div>
+		</div>
+	</div>
+</body>
+							
+											
